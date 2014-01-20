@@ -1,0 +1,13 @@
+#ifndef __CONSTANTS_H
+#define __CONSTANTS_H
+
+#define	IMAGE_SIZE_X	144
+#define IMAGE_SIZE_Y	168
+	
+#define LOCATION_3_ORIGIN_X		100
+#define LOCATION_3_ORIGIN_Y		55
+
+#define ANIMATION_DURATION	250
+#define TOTAL_HIEROGLYPHS	21
+
+#endif //__CONSTANTS_H
