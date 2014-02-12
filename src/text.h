@@ -8,7 +8,7 @@ static char * cheat_sheet[TOTAL_HIEROGLYPHS + 1] = {
 	"Human Chimney / Jack-O-Lantern\n\
 	Inhale the initial sulfur flash after striking a match through your nose to blow out \
 	smoke from your mouth. (Warning: likely unhealthy.)\nPlace a lit match inside your mouth \
-	and slowly inhale so you don't get burned.",
+	and slowly inhale so you don\'t get burned.",
 
 	"Static Shock Static / Charge Match\n\
 	Slap your right cheek and then left cheek and bring down your hand to knock over a piece \
@@ -32,7 +32,8 @@ static char * cheat_sheet[TOTAL_HIEROGLYPHS + 1] = {
 	"The Race\n\
 	Bet you can down two pints before someone can down two shots. Neither person can touch \
 	each other or each other\'s glass and no double fisting. Ask for a head start. They can\'t \
-	start drinking the shot until you put the pint back on the bar. Place the empty pint over one of their shots and finish the second pint at your leisure.",
+	start drinking the shot until you put the pint back on the bar. Place the empty pint over \
+	one of their shots and finish the second pint at your leisure.",
 
 	"The Mirror\n\
 	Bet someone they can\'t mirror you. Do several steps and take a sip of your drink. Do a few \
@@ -104,17 +105,18 @@ static char * cheat_sheet[TOTAL_HIEROGLYPHS + 1] = {
 	is I+I+I+I=IIII",
 
 	"Five Rooms Puzzle\n\
-	One half of the “hard or impossible” scam. Set up the 5-rooms puzzle as shown, and challenge \
-	them to run a continuous curving line through every single wall segment. (They can’t.)",
+	One half of the \"hard or impossible\" scam. Set up the 5-rooms puzzle as shown, and challenge \
+	them to run a continuous curving line through every single wall segment. (They can\'t.)",
 
 	"Number Grid\n\
-	Set up the blank grid as shown, and challenge them to write numbers 1-8 without any number\
-	touching the next number in the sequence (*EVEN ON A DIAGONAL*). This one’s hard, but not \
-	impossible. Remember: this one’s most powerful when coupled with the 5-rooms puzzle. As long as they don’t know which is the “real” puzzle, they’ll make no progress on either.",
+	Set up the blank grid as shown, and challenge them to write numbers 1-8 without any number \
+	touching the next number in the sequence (*EVEN ON A DIAGONAL*). This one\'s hard, but not \
+	impossible. Remember: this one’s most powerful when coupled with the 5-rooms puzzle. As long \
+	as they don\'t know which is the \"real\" puzzle, they’ll make no progress on either.",
 
 	"Prophetic Dominoes\n\
-	Ask your friend to make a giant chain of dominoes, using all the dominoes in the box. When he\
-	gets to the end, reveal your prediction of the two end segments being 5 and 3. (Method: steal\
+	Ask your friend to make a giant chain of dominoes, using all the dominoes in the box. When he \
+	gets to the end, reveal your prediction of the two end segments being 5 and 3. (Method: steal \
 	out the 5/3 domino beforehand. In a full set, a complete chain would be a circle.)",
 
 	"VII=I\n\

@@ -12,6 +12,7 @@ static Layer *window_layer;
 static PropertyAnimation *property_animation_1 = NULL, *property_animation_2 = NULL;
 GRect image_locations[3];
 
+static const int vert_text_layer_padding = 25;
 static const int vert_scroll_text_padding = 4;
 static int8_t current_image = 0;
 
@@ -170,7 +171,8 @@ static void scroll_window_load(Window *window){
 	
 	// Trim text layer and scroll content to fit text box
 	GSize max_size = text_layer_get_content_size(text_layer);
-	text_layer_set_size(text_layer, max_size);
+	//text_layer_set_size(text_layer, max_size);
+	text_layer_set_size(text_layer, GSize(max_size.w, max_size.h + vert_text_layer_padding));
 	scroll_layer_set_content_size(scroll_layer, GSize(bounds.size.w, max_size.h + vert_scroll_text_padding));
 	
 	//scroll_layer_set_shadow_hidden(scroll_layer, true);
