@@ -3,9 +3,7 @@ RoguesPebble
 
 Rogue's Pebble
 
-Rogue's Pebble features cryptic hieroglyphs that provide crib notes for 24+ different Scam School effects.  No matter what room you're in, no matter what kind of crowd you're faced with, you'll have your cheat-sheet to perform some of the best tricks you've learned over the last 5 years of Scam School episodes.
-
-For more information on the different hieroglyphs watch this video: http://youtu.be/qQ5V3gGvmC4
+Rogue's Pebble features cryptic hieroglyphs that provide crib notes for 24+ different Scam School effects.  No matter what room you're in, no matter what kind of crowd you're faced with, you'll have your cheat-sheet to perform some of the best tricks you've learned over the last 5 years of Scam School episodes. For more information on the different hieroglyphs watch this video: http://youtu.be/qQ5V3gGvmC4
 
 How to use:
 
