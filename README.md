@@ -21,4 +21,6 @@ Tip the developer in DogeCoin: DBheUX1P1bcGyjzaFk6BvohwF591EZoKbU
 
 Watch Scam School: http://www.youtube.com/user/scamschool
 
+Get a real Rogue's Ring or Flask and other cool stuff at: http://www.scamstuff.com/
+
 Watch the NSFW Show: http://diamondclub.tv/
