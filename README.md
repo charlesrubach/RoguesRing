@@ -15,5 +15,7 @@ How to use:
 This project is open source. If you find a better watch to do things please let me know! I'm still learning.
 
 Tip the developer in DogeCoin: DBheUX1P1bcGyjzaFk6BvohwF591EZoKbU
+
 Watch Scam School: http://www.youtube.com/user/scamschool
+
 Watch the NSFW Show: http://diamondclub.tv/
