@@ -9,7 +9,9 @@ For more information on the different hieroglyphs watch this video: http://youtu
 
 How to use:
 1) Watch the video to familiarize yourself with the hieroglyphs. If you need further explanation follow the links under the video to learn more about the effects.
+
 2) Check the app when at a bar to remind yourself what to do. If you get stuck press the select button to see more   information on the selected effect.
+
 3) Enjoy your free beer!
 
 This project is open source. If you find a better watch to do things please let me know! I'm still learning.
