@@ -8,6 +8,7 @@ Rogue's Pebble features cryptic hieroglyphs that provide crib notes for 24+ diff
 For more information on the different hieroglyphs watch this video: http://youtu.be/qQ5V3gGvmC4
 
 How to use:
+
 1) Watch the video to familiarize yourself with the hieroglyphs. If you need further explanation follow the links under the video to learn more about the effects.
 
 2) Check the app when at a bar to remind yourself what to do. If you get stuck press the select button to see more   information on the selected effect.
