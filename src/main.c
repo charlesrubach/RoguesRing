@@ -64,7 +64,6 @@ static void animation_stopped_image_2(Animation *animation, bool finished, void 
 	(void)data;	
 	
 	// Destroy old image
-	Layer *rootLayer = window_get_root_layer(window);
 	layer_remove_from_parent(bitmap_layer_get_layer(image_layer_1));
 	
 	// Load up new image
@@ -73,9 +72,8 @@ static void animation_stopped_image_2(Animation *animation, bool finished, void 
 }
 
 // Move images down
-static void down_click_handler(ClickRecognizerRef recognizer, Window *window) {	
-	int8_t next_image = (current_image + 1 > TOTAL_HIEROGLYPHS) ? 0 : current_image + 1;
-	GRect bounds = layer_get_frame(window_layer);
+static void up_click_handler(ClickRecognizerRef recognizer, Window *window) {	
+	int8_t next_image = (current_image - 1 < 0) ? TOTAL_HIEROGLYPHS : current_image - 1;
 	
 	// Load image above
 	load_up_image(&image_2, (uint32_t)hieroglyph[next_image], &image_layer_2, image_locations[0]);	
@@ -104,15 +102,14 @@ static void down_click_handler(ClickRecognizerRef recognizer, Window *window) {
 	
 	animation_schedule((Animation*)property_animation_1);
 	animation_schedule((Animation*)property_animation_2);
-	
-	current_image++;	
-	if(current_image > TOTAL_HIEROGLYPHS) { current_image = 0; }
+
+	current_image--;	
+	if(current_image < 0) { current_image = TOTAL_HIEROGLYPHS; }
 }
 
 // Rotate Counter-Clockwise
-static void up_click_handler(ClickRecognizerRef recognizer, Window *window) {	
-	int8_t next_image = (current_image - 1 < 0) ? TOTAL_HIEROGLYPHS : current_image - 1;
-	GRect bounds = layer_get_frame(window_layer);
+static void down_click_handler(ClickRecognizerRef recognizer, Window *window) {	
+	int8_t next_image = (current_image + 1 > TOTAL_HIEROGLYPHS) ? 0 : current_image + 1;
 	
 	// Load image below
 	load_up_image(&image_2, (uint32_t)hieroglyph[next_image], &image_layer_2, image_locations[2]);	
@@ -140,26 +137,30 @@ static void up_click_handler(ClickRecognizerRef recognizer, Window *window) {
 	}, NULL );	
 	
 	animation_schedule((Animation*)property_animation_1);
-	animation_schedule((Animation*)property_animation_2);
+	animation_schedule((Animation*)property_animation_2);	
 	
-	current_image--;	
-	if(current_image < 0) { current_image = TOTAL_HIEROGLYPHS; }
+	current_image++;	
+	if(current_image > TOTAL_HIEROGLYPHS) { current_image = 0; }
 }
 
 static void scroll_window_load(Window *window){
-	Layer *window_layer = window_get_root_layer(scroll_window);
+	Layer *window_layer = window_get_root_layer(window);
 	GRect bounds = layer_get_frame(window_layer);
 	GRect max_text_bounds = GRect(0, 0, bounds.size.w, 2000);
-		
+	
 	// Initialize the scroll layer
 	scroll_layer = scroll_layer_create(bounds);	
-	
+	window_set_fullscreen(window, true);	
+	window_set_background_color(window, GColorBlack);
+		
 	// This binds the scroll layer to the window so that up and down map to scrolling
 	// You may use scroll_layer_set_callbacks to add or override interactivity
 	scroll_layer_set_click_config_onto_window(scroll_layer, scroll_window);
 	
 	// Initialize the text layer
 	text_layer = text_layer_create(max_text_bounds);
+	text_layer_set_text_color(text_layer, GColorWhite);
+	text_layer_set_background_color(text_layer, GColorBlack);
 	text_layer_set_text(text_layer, cheat_sheet[current_image]);
 	
 	// Change the font to a nice readable one
@@ -170,8 +171,10 @@ static void scroll_window_load(Window *window){
 	// Trim text layer and scroll content to fit text box
 	GSize max_size = text_layer_get_content_size(text_layer);
 	text_layer_set_size(text_layer, max_size);
-	scroll_layer_set_content_size(scroll_layer, GSize(bounds.size.w, max_size.h + vert_scroll_text_padding));	
+	scroll_layer_set_content_size(scroll_layer, GSize(bounds.size.w, max_size.h + vert_scroll_text_padding));
 	
+	//scroll_layer_set_shadow_hidden(scroll_layer, true);
+
 	// Add the layers for display
 	scroll_layer_add_child(scroll_layer, text_layer_get_layer(text_layer));	
 	layer_add_child(window_layer, scroll_layer_get_layer(scroll_layer));	
@@ -205,7 +208,6 @@ static void window_load(Window *window) {
 	image_locations[0] = GRect(0, -IMAGE_SIZE_X, IMAGE_SIZE_X, IMAGE_SIZE_Y);
 	image_locations[1] = GRect(0, 0, IMAGE_SIZE_X, IMAGE_SIZE_X);
 	image_locations[2] = GRect(0, IMAGE_SIZE_X, IMAGE_SIZE_X, IMAGE_SIZE_Y);
-
 	
 	load_up_image(&image_1, (uint32_t)hieroglyph[0], &image_layer_1, bounds);
 }
@@ -229,6 +231,8 @@ void init(void) {
 		.load = window_load,
 		.unload = window_unload,
 	});
+	window_set_background_color(window, GColorBlack);
+	window_set_fullscreen(window, true);
 	window_set_click_config_provider(window, (ClickConfigProvider) config_provider);
 	window_stack_push(window, true /* Animated */);		
 }
