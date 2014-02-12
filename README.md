@@ -15,7 +15,7 @@ How to use:
 
 3) Enjoy your free beer!
 
-This project is open source. If you find a better watch to do things please let me know! I'm still learning.
+This project is open source. If you find a better way to do things please let me know! I'm still learning.
 
 Tip the developer in DogeCoin: DBheUX1P1bcGyjzaFk6BvohwF591EZoKbU
 
