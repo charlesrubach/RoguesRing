@@ -69,7 +69,7 @@ static char * cheat_sheet[TOTAL_HIEROGLYPHS + 1] = {
 	"Tic Tac Toe\n\
 	Write down your prediction. Play a game of Tic Tac Toe. Go first with X. If opponent plays \
 	a corner, you play in the square clockwise to them. If opponent plays a center spot you play \
-	the square clockwise to them.",
+	the square counter clockwise to them.",
 
 	"Petals Around The Rose\n\
 	Make sure to state the name of the game and that it is important. Also the answer will always \

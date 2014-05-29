@@ -1,135 +1,135 @@
 {
-    "versionLabel": "1.01",
-    "uuid": "26c29613-49fb-4eaa-a2f9-cb07c026694f",
-    "appKeys": {},
-    "longName": "Rogue's Pebble",
-    "versionCode": 2,
-    "capabilities": [
-        ""
-    ],
-    "shortName": "Rog. Pebble",
-    "companyName": "charlesrubach",
     "watchapp": {
         "watchface": false
     },
+    "longName": "Rogue's Pebble",
+    "shortName": "Rog. Pebble",
+    "companyName": "charlesrubach",
+    "capabilities": [
+        ""
+    ],
     "resources": {
         "media": [
             {
+                "file": "images/rogue_pebble_menu_image.png",
                 "menuIcon": true,
                 "type": "png",
-                "name": "MENU_IMAGE",
-                "file": "images/rogue_pebble_menu_image.png"
+                "name": "MENU_IMAGE"
             },
             {
+                "file": "images/petals_around_the_rose.png",
                 "type": "png",
-                "name": "ADVANCED_NIM",
-                "file": "images/advanced_nim.png"
+                "name": "PETALS_AROUND_THE_ROSE"
             },
             {
+                "file": "images/whiskey_vs_water.png",
                 "type": "png",
-                "name": "FIVE_PLUS_FIVE_PLUS_FIVE",
-                "file": "images/five_plus_five_plus_five.png"
+                "name": "WHISKEY_VS_WATER"
             },
             {
+                "file": "images/chimney_lantern.png",
                 "type": "png",
-                "name": "VII_EQUALS_I",
-                "file": "images/vii_equals_i.png"
+                "name": "CHIMNEY_LANTERN"
             },
             {
+                "file": "images/bang_your_head.png",
                 "type": "png",
-                "name": "PROPHETIC_DOMINOES",
-                "file": "images/prophetic_dominoes.png"
+                "name": "BANG_YOUR_HEAD"
             },
             {
+                "file": "images/static_shot_charge_match.png",
                 "type": "png",
-                "name": "NUMBER_GRID",
-                "file": "images/number_grid.png"
+                "name": "STATIC_SHOT_CHARGE_MATCH"
             },
             {
+                "file": "images/the_race.png",
                 "type": "png",
-                "name": "FIVE_ROOMS_PUZZLE",
-                "file": "images/five_rooms_puzzle.png"
+                "name": "THE_RACE"
             },
             {
+                "file": "images/four_quarters.png",
                 "type": "png",
-                "name": "THE_EQUATION",
-                "file": "images/the_equation.png"
+                "name": "FOUR_QUARTERS"
             },
             {
+                "file": "images/beer_thumbcuffs.png",
                 "type": "png",
-                "name": "CIRCUMFERENCE_VS_HEIGHT",
-                "file": "images/circumference_vs_height.png"
+                "name": "BEER_THUMBCUFFS"
             },
             {
+                "file": "images/the_mirror.png",
                 "type": "png",
-                "name": "ELEVEN_CENT_SLIDE",
-                "file": "images/eleven_cent_slide.png"
+                "name": "THE_MIRROR"
             },
             {
+                "file": "images/kung_fu_match.png",
                 "type": "png",
-                "name": "BEER_THUMBCUFFS",
-                "file": "images/beer_thumbcuffs.png"
+                "name": "KUNG_FU_MATCH"
             },
             {
+                "file": "images/three_caps_one_beverage.png",
                 "type": "png",
-                "name": "WHISKEY_VS_WATER",
-                "file": "images/whiskey_vs_water.png"
+                "name": "THREE_CAPS_ONE_BEVERAGE"
             },
             {
+                "file": "images/the_heist.png",
                 "type": "png",
-                "name": "PETALS_AROUND_THE_ROSE",
-                "file": "images/petals_around_the_rose.png"
+                "name": "THE_HEIST"
             },
             {
+                "file": "images/tic_tac_toe.png",
                 "type": "png",
-                "name": "TIC_TAC_TOE",
-                "file": "images/tic_tac_toe.png"
+                "name": "TIC_TAC_TOE"
             },
             {
+                "file": "images/eleven_cent_slide.png",
                 "type": "png",
-                "name": "THE_HEIST",
-                "file": "images/the_heist.png"
+                "name": "ELEVEN_CENT_SLIDE"
             },
             {
+                "file": "images/circumference_vs_height.png",
                 "type": "png",
-                "name": "THREE_CAPS_ONE_BEVERAGE",
-                "file": "images/three_caps_one_beverage.png"
+                "name": "CIRCUMFERENCE_VS_HEIGHT"
             },
             {
+                "file": "images/the_equation.png",
                 "type": "png",
-                "name": "KUNG_FU_MATCH",
-                "file": "images/kung_fu_match.png"
+                "name": "THE_EQUATION"
             },
             {
+                "file": "images/five_rooms_puzzle.png",
                 "type": "png",
-                "name": "THE_MIRROR",
-                "file": "images/the_mirror.png"
+                "name": "FIVE_ROOMS_PUZZLE"
             },
             {
+                "file": "images/number_grid.png",
                 "type": "png",
-                "name": "FOUR_QUARTERS",
-                "file": "images/four_quarters.png"
+                "name": "NUMBER_GRID"
             },
             {
+                "file": "images/prophetic_dominoes.png",
                 "type": "png",
-                "name": "THE_RACE",
-                "file": "images/the_race.png"
+                "name": "PROPHETIC_DOMINOES"
             },
             {
+                "file": "images/vii_equals_i.png",
                 "type": "png",
-                "name": "STATIC_SHOT_CHARGE_MATCH",
-                "file": "images/static_shot_charge_match.png"
+                "name": "VII_EQUALS_I"
             },
             {
+                "file": "images/five_plus_five_plus_five.png",
                 "type": "png",
-                "name": "BANG_YOUR_HEAD",
-                "file": "images/bang_your_head.png"
+                "name": "FIVE_PLUS_FIVE_PLUS_FIVE"
             },
             {
+                "file": "images/advanced_nim.png",
                 "type": "png",
-                "name": "CHIMNEY_LANTERN",
-                "file": "images/chimney_lantern.png"
+                "name": "ADVANCED_NIM"
             }
         ]
-    }
+    },
+    "uuid": "26c29613-49fb-4eaa-a2f9-cb07c026694f",
+    "versionLabel": "1.02",
+    "appKeys": {},
+    "versionCode": 2
 }
