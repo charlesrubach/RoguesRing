@@ -221,7 +221,7 @@ static void window_unload(Window *window) {
 	bitmap_layer_destroy(image_layer_2);
 	
 	layer_destroy(window_layer);
-	window_destroy(window);	
+	//window_destroy(window);	
 	
 	property_animation_destroy(property_animation_1);
 	property_animation_destroy(property_animation_2);

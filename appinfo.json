@@ -1,135 +1,137 @@
 {
-    "watchapp": {
-        "watchface": false
-    },
-    "longName": "Rogue's Pebble",
-    "shortName": "Rog. Pebble",
-    "companyName": "charlesrubach",
+    "appKeys": {},
     "capabilities": [
         ""
     ],
+    "companyName": "charlesrubach",
+    "longName": "Rogue's Ring Companion App",
+    "projectType": "native",
     "resources": {
         "media": [
             {
                 "file": "images/rogue_pebble_menu_image.png",
                 "menuIcon": true,
-                "type": "png",
-                "name": "MENU_IMAGE"
+                "name": "MENU_IMAGE",
+                "type": "png"
             },
             {
                 "file": "images/petals_around_the_rose.png",
-                "type": "png",
-                "name": "PETALS_AROUND_THE_ROSE"
+                "name": "PETALS_AROUND_THE_ROSE",
+                "type": "png"
             },
             {
                 "file": "images/whiskey_vs_water.png",
-                "type": "png",
-                "name": "WHISKEY_VS_WATER"
+                "name": "WHISKEY_VS_WATER",
+                "type": "png"
             },
             {
                 "file": "images/chimney_lantern.png",
-                "type": "png",
-                "name": "CHIMNEY_LANTERN"
+                "name": "CHIMNEY_LANTERN",
+                "type": "png"
             },
             {
                 "file": "images/bang_your_head.png",
-                "type": "png",
-                "name": "BANG_YOUR_HEAD"
+                "name": "BANG_YOUR_HEAD",
+                "type": "png"
             },
             {
                 "file": "images/static_shot_charge_match.png",
-                "type": "png",
-                "name": "STATIC_SHOT_CHARGE_MATCH"
+                "name": "STATIC_SHOT_CHARGE_MATCH",
+                "type": "png"
             },
             {
                 "file": "images/the_race.png",
-                "type": "png",
-                "name": "THE_RACE"
+                "name": "THE_RACE",
+                "type": "png"
             },
             {
                 "file": "images/four_quarters.png",
-                "type": "png",
-                "name": "FOUR_QUARTERS"
+                "name": "FOUR_QUARTERS",
+                "type": "png"
             },
             {
                 "file": "images/beer_thumbcuffs.png",
-                "type": "png",
-                "name": "BEER_THUMBCUFFS"
+                "name": "BEER_THUMBCUFFS",
+                "type": "png"
             },
             {
                 "file": "images/the_mirror.png",
-                "type": "png",
-                "name": "THE_MIRROR"
+                "name": "THE_MIRROR",
+                "type": "png"
             },
             {
                 "file": "images/kung_fu_match.png",
-                "type": "png",
-                "name": "KUNG_FU_MATCH"
+                "name": "KUNG_FU_MATCH",
+                "type": "png"
             },
             {
                 "file": "images/three_caps_one_beverage.png",
-                "type": "png",
-                "name": "THREE_CAPS_ONE_BEVERAGE"
+                "name": "THREE_CAPS_ONE_BEVERAGE",
+                "type": "png"
             },
             {
                 "file": "images/the_heist.png",
-                "type": "png",
-                "name": "THE_HEIST"
+                "name": "THE_HEIST",
+                "type": "png"
             },
             {
                 "file": "images/tic_tac_toe.png",
-                "type": "png",
-                "name": "TIC_TAC_TOE"
+                "name": "TIC_TAC_TOE",
+                "type": "png"
             },
             {
                 "file": "images/eleven_cent_slide.png",
-                "type": "png",
-                "name": "ELEVEN_CENT_SLIDE"
+                "name": "ELEVEN_CENT_SLIDE",
+                "type": "png"
             },
             {
                 "file": "images/circumference_vs_height.png",
-                "type": "png",
-                "name": "CIRCUMFERENCE_VS_HEIGHT"
+                "name": "CIRCUMFERENCE_VS_HEIGHT",
+                "type": "png"
             },
             {
                 "file": "images/the_equation.png",
-                "type": "png",
-                "name": "THE_EQUATION"
+                "name": "THE_EQUATION",
+                "type": "png"
             },
             {
                 "file": "images/five_rooms_puzzle.png",
-                "type": "png",
-                "name": "FIVE_ROOMS_PUZZLE"
+                "name": "FIVE_ROOMS_PUZZLE",
+                "type": "png"
             },
             {
                 "file": "images/number_grid.png",
-                "type": "png",
-                "name": "NUMBER_GRID"
+                "name": "NUMBER_GRID",
+                "type": "png"
             },
             {
                 "file": "images/prophetic_dominoes.png",
-                "type": "png",
-                "name": "PROPHETIC_DOMINOES"
+                "name": "PROPHETIC_DOMINOES",
+                "type": "png"
             },
             {
                 "file": "images/vii_equals_i.png",
-                "type": "png",
-                "name": "VII_EQUALS_I"
+                "name": "VII_EQUALS_I",
+                "type": "png"
             },
             {
                 "file": "images/five_plus_five_plus_five.png",
-                "type": "png",
-                "name": "FIVE_PLUS_FIVE_PLUS_FIVE"
+                "name": "FIVE_PLUS_FIVE_PLUS_FIVE",
+                "type": "png"
             },
             {
                 "file": "images/advanced_nim.png",
-                "type": "png",
-                "name": "ADVANCED_NIM"
+                "name": "ADVANCED_NIM",
+                "type": "png"
             }
         ]
     },
+    "sdkVersion": "2",
+    "shortName": "Rogue's Ring",
     "uuid": "26c29613-49fb-4eaa-a2f9-cb07c026694f",
-    "versionLabel": "1.02",
-    "appKeys": {},
-    "versionCode": 2
+    "versionCode": 1,
+    "versionLabel": "1.03",
+    "watchapp": {
+        "watchface": false
+    }
 }
