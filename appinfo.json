@@ -4,6 +4,7 @@
         ""
     ],
     "companyName": "charlesrubach",
+    "enableMultiJS": false,
     "longName": "Rogue's Ring Companion App",
     "projectType": "native",
     "resources": {
@@ -15,103 +16,8 @@
                 "type": "png"
             },
             {
-                "file": "images/petals_around_the_rose.png",
-                "name": "PETALS_AROUND_THE_ROSE",
-                "type": "png"
-            },
-            {
-                "file": "images/whiskey_vs_water.png",
-                "name": "WHISKEY_VS_WATER",
-                "type": "png"
-            },
-            {
-                "file": "images/chimney_lantern.png",
-                "name": "CHIMNEY_LANTERN",
-                "type": "png"
-            },
-            {
-                "file": "images/bang_your_head.png",
-                "name": "BANG_YOUR_HEAD",
-                "type": "png"
-            },
-            {
-                "file": "images/static_shot_charge_match.png",
-                "name": "STATIC_SHOT_CHARGE_MATCH",
-                "type": "png"
-            },
-            {
-                "file": "images/the_race.png",
-                "name": "THE_RACE",
-                "type": "png"
-            },
-            {
-                "file": "images/four_quarters.png",
-                "name": "FOUR_QUARTERS",
-                "type": "png"
-            },
-            {
-                "file": "images/beer_thumbcuffs.png",
-                "name": "BEER_THUMBCUFFS",
-                "type": "png"
-            },
-            {
-                "file": "images/the_mirror.png",
-                "name": "THE_MIRROR",
-                "type": "png"
-            },
-            {
-                "file": "images/kung_fu_match.png",
-                "name": "KUNG_FU_MATCH",
-                "type": "png"
-            },
-            {
-                "file": "images/three_caps_one_beverage.png",
-                "name": "THREE_CAPS_ONE_BEVERAGE",
-                "type": "png"
-            },
-            {
-                "file": "images/the_heist.png",
-                "name": "THE_HEIST",
-                "type": "png"
-            },
-            {
-                "file": "images/tic_tac_toe.png",
-                "name": "TIC_TAC_TOE",
-                "type": "png"
-            },
-            {
-                "file": "images/eleven_cent_slide.png",
-                "name": "ELEVEN_CENT_SLIDE",
-                "type": "png"
-            },
-            {
-                "file": "images/circumference_vs_height.png",
-                "name": "CIRCUMFERENCE_VS_HEIGHT",
-                "type": "png"
-            },
-            {
-                "file": "images/the_equation.png",
-                "name": "THE_EQUATION",
-                "type": "png"
-            },
-            {
-                "file": "images/five_rooms_puzzle.png",
-                "name": "FIVE_ROOMS_PUZZLE",
-                "type": "png"
-            },
-            {
-                "file": "images/number_grid.png",
-                "name": "NUMBER_GRID",
-                "type": "png"
-            },
-            {
-                "file": "images/prophetic_dominoes.png",
-                "name": "PROPHETIC_DOMINOES",
-                "type": "png"
-            },
-            {
-                "file": "images/vii_equals_i.png",
-                "name": "VII_EQUALS_I",
+                "file": "images/advanced_nim.png",
+                "name": "ADVANCED_NIM",
                 "type": "png"
             },
             {
@@ -120,17 +26,115 @@
                 "type": "png"
             },
             {
-                "file": "images/advanced_nim.png",
-                "name": "ADVANCED_NIM",
+                "file": "images/vii_equals_i.png",
+                "name": "VII_EQUALS_I",
+                "type": "png"
+            },
+            {
+                "file": "images/prophetic_dominoes.png",
+                "name": "PROPHETIC_DOMINOES",
+                "type": "png"
+            },
+            {
+                "file": "images/number_grid.png",
+                "name": "NUMBER_GRID",
+                "type": "png"
+            },
+            {
+                "file": "images/five_rooms_puzzle.png",
+                "name": "FIVE_ROOMS_PUZZLE",
+                "type": "png"
+            },
+            {
+                "file": "images/the_equation.png",
+                "name": "THE_EQUATION",
+                "type": "png"
+            },
+            {
+                "file": "images/circumference_vs_height.png",
+                "name": "CIRCUMFERENCE_VS_HEIGHT",
+                "type": "png"
+            },
+            {
+                "file": "images/eleven_cent_slide.png",
+                "name": "ELEVEN_CENT_SLIDE",
+                "type": "png"
+            },
+            {
+                "file": "images/tic_tac_toe.png",
+                "name": "TIC_TAC_TOE",
+                "type": "png"
+            },
+            {
+                "file": "images/the_heist.png",
+                "name": "THE_HEIST",
+                "type": "png"
+            },
+            {
+                "file": "images/three_caps_one_beverage.png",
+                "name": "THREE_CAPS_ONE_BEVERAGE",
+                "type": "png"
+            },
+            {
+                "file": "images/kung_fu_match.png",
+                "name": "KUNG_FU_MATCH",
+                "type": "png"
+            },
+            {
+                "file": "images/the_mirror.png",
+                "name": "THE_MIRROR",
+                "type": "png"
+            },
+            {
+                "file": "images/beer_thumbcuffs.png",
+                "name": "BEER_THUMBCUFFS",
+                "type": "png"
+            },
+            {
+                "file": "images/four_quarters.png",
+                "name": "FOUR_QUARTERS",
+                "type": "png"
+            },
+            {
+                "file": "images/the_race.png",
+                "name": "THE_RACE",
+                "type": "png"
+            },
+            {
+                "file": "images/static_shot_charge_match.png",
+                "name": "STATIC_SHOT_CHARGE_MATCH",
+                "type": "png"
+            },
+            {
+                "file": "images/bang_your_head.png",
+                "name": "BANG_YOUR_HEAD",
+                "type": "png"
+            },
+            {
+                "file": "images/chimney_lantern.png",
+                "name": "CHIMNEY_LANTERN",
+                "type": "png"
+            },
+            {
+                "file": "images/whiskey_vs_water.png",
+                "name": "WHISKEY_VS_WATER",
+                "type": "png"
+            },
+            {
+                "file": "images/petals_around_the_rose.png",
+                "name": "PETALS_AROUND_THE_ROSE",
                 "type": "png"
             }
         ]
     },
-    "sdkVersion": "2",
+    "sdkVersion": "3",
     "shortName": "Rogue's Ring",
+    "targetPlatforms": [
+        "aplite",
+        "basalt"
+    ],
     "uuid": "26c29613-49fb-4eaa-a2f9-cb07c026694f",
-    "versionCode": 1,
-    "versionLabel": "1.03",
+    "versionLabel": "1.04",
     "watchapp": {
         "watchface": false
     }

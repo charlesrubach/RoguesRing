@@ -151,7 +151,9 @@ static void scroll_window_load(Window *window){
 	
 	// Initialize the scroll layer
 	scroll_layer = scroll_layer_create(bounds);	
-	window_set_fullscreen(window, true);	
+	#ifdef PBL_SDK_2
+		window_set_fullscreen(window, true);	
+	#endif
 	window_set_background_color(window, GColorBlack);
 		
 	// This binds the scroll layer to the window so that up and down map to scrolling
@@ -234,7 +236,9 @@ void init(void) {
 		.unload = window_unload,
 	});
 	window_set_background_color(window, GColorBlack);
-	window_set_fullscreen(window, true);
+	#ifdef PBL_SDK_2
+		window_set_fullscreen(window, true);
+	#endif
 	window_set_click_config_provider(window, (ClickConfigProvider) config_provider);
 	window_stack_push(window, true /* Animated */);		
 }
