@@ -3,7 +3,7 @@ RoguesRing
 
 Rogue's Ring
 
-Rogue's Ring features cryptic hieroglyphs that provide crib notes for 24+ different Scam School effects.  No matter what room you're in, no matter what kind of crowd you're faced with, you'll have your cheat-sheet to perform some of the best tricks you've learned over the last 5 years of Scam School episodes. For more information on the different hieroglyphs watch this video: http://youtu.be/qQ5V3gGvmC4
+Rogue's Ring features cryptic hieroglyphs that provide crib notes for 24+ different Scam School effects.  No matter what room you're in, no matter what kind of crowd you're faced with, you'll have your cheat-sheet to perform some of the best tricks you've learned over the years from Scam School episodes. For more information on the different hieroglyphs watch this video: http://youtu.be/qQ5V3gGvmC4
 
 How to use:
 
@@ -17,8 +17,7 @@ This project is open source. If you find a better way to do things please let me
 
 Tip the developer in DogeCoin: DBheUX1P1bcGyjzaFk6BvohwF591EZoKbU
 
-Watch Scam School: http://www.youtube.com/user/scamschool
+Watch Scam Nation: http://www.youtube.com/user/scamschool
 
-Get a real Rogue's Ring or Flask and other cool stuff at: http://www.scamstuff.com/
+Get a real Rogue's Ring (if available) and other cool stuff at: http://www.scamstuff.com/
 
-Watch Night Attack on http://diamondclub.tv/
